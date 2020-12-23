@@ -26,5 +26,5 @@ Sorting has lower worst case complexity than O(n) so overall worst case complexi
 O(n)
 
 All tasks:
-Single line printouts have static compexity 1, need to be printed just once.
-Printouts within the for loops in worst case would be same as input data size. 
+Single line printouts have static compexity O(1) as these occur just once, thus considered negligible.  
+Printouts within the for loops in worst case would be same as input data size O(n).
