@@ -1,7 +1,6 @@
 Task 0:
-For loops for each of the two input data sets. Linear relation between input size and number of computations necessary.
-Some number of computations must be performed for each row in the input files. 
-Thus: O(n)
+Both times we are looking up a specific collection element by index - this is a static complexity operation. 
+Thus: O(1)
 
 Task 1:
 Same as with Task 0 - some number of computations must be performed for each row in the input files.
