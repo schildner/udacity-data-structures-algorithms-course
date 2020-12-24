@@ -39,10 +39,7 @@ for record in texts:
     not_marketers.add(record[0])
     not_marketers.add(record[1])
 
-marketers = list(candidate_marketers)
-for number in candidate_marketers:
-    if number in not_marketers:
-        marketers.remove(number)
+marketers = candidate_marketers - not_marketers
 
 print("These numbers could be telemarketers: ")
 for marketer in sorted(marketers):
