@@ -66,7 +66,7 @@ for record in calls:
 		# To mobile number?
 		elif " " in record[1] and (record[1][0] == "7" or record[1][0] == "8" or record[1][0] == 9):
 			# add first 4 chars
-			unique_codes.add(record[1][:5])
+			unique_codes.add(record[1][:4])
 
 print("The numbers called by people in Bangalore have codes:")
 
